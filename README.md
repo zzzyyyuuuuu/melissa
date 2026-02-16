@@ -29,6 +29,11 @@ for gentoo :
 sudo emerge --ask dev-lang/python dev-python/pip dev-python/pygobject gui-libs/gtk:4 gui-libs/libadwaita gui-apps/waybar media-gfx/grim gui-apps/slurp gui-wm/hyprland
 ```
 
+for nix : ( use nix-shell)
+```bash
+nix-shell -p python3 python3Packages.pygobject3 gtk4 libadwaita waybar  hyprland
+```
+
 2 - clone repo and open melissa/melissa : 
 ```bash
 git clone --depth 1 https://github.com/zzzyyyuuuuu/melissa.git
